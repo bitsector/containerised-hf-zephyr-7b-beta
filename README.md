@@ -17,9 +17,9 @@ The project uses a two-stage Docker build process to optimize the deployment of 
 ## Build and Deploy
 
 ### 1. Build the pre-cache image
-
+```
 docker build -t python-3.12-slim-bookworm-precache-builder:1.0 -f Dockerfile.prebuild .
-
+```
 ### 2. Build the final image
 
 docker build -t reponame/hf-zephyr:1.0 .
