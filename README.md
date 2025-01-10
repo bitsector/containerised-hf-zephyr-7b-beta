@@ -34,7 +34,7 @@ docker push reponame/hf-zephyr:1.0
 ```
 ### 5. Deploy to Kubernetes
 ```
-kubectl apply -f hf-zephyre-service.yaml
+kubectl apply -f hf-zephyr-service.yaml
 ```
 ### 6. Get the service IP
 ```
